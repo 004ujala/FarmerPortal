@@ -70,7 +70,7 @@ app.post("/recommend_crop", async (req, res) => {
     } catch (error) {
         console.log("Error in backend");
         console.error(error);
-        res.status(500).send("Error while processing recommendation");
+        res.status(500).send("Error while processing the recommendation");
     }
 });
 
