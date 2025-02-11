@@ -1,0 +1,9 @@
+# Ignore node_modules in frontend and backend
+backend/node_modules/
+frontend/node_modules/
+
+# Ignore environment variables
+backend/.env
+
+# Ignore virtual environment in ml_model
+ml_model/venv/

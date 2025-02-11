@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center the navigation items */
+}
+
+nav li {
+  margin: 0 20px; /* Space out the items */
+}
+
+nav a {
+  color: #61dafb; /* Change the color */
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Mouse pointer cursor */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
